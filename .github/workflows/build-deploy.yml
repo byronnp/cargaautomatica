@@ -24,7 +24,7 @@ jobs:
           npm install
           npm run-script deploy
       - name: Deploy
-        uses: byronnp/cargaautomatica@releases/v2
+        uses: byronnp/cargaautomatica@main
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
