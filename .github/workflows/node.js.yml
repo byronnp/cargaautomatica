@@ -28,7 +28,7 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build --prod 
-    - run: cp -r ./dist/cargaautomatica/* /var/www/html 
+    - run: cp -r ./dist/pruebasbuild/* /var/www/html 
    
    
    
