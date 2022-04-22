@@ -27,7 +27,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
-    - run: npm run build --base-href /cargaautomatica/ --prod
+    - run: npm run build --base-href /pruebasbuild/ --prod
     - run: sudo cp -r ./dist/* /var/www/html 
    
    
