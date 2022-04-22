@@ -27,8 +27,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
-    - run: npm run build --prod # --if-present
-   # - run: ng build --prod
+    - run: npm run build --prod 
+    - run: cp -r ./dist/cargaautomatica/* /var/www/html 
    
    
    
